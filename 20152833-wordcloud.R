@@ -1,21 +1,21 @@
-# ÇÑ¸²´ëÇĞ±³ 20152833 ±èÁØÇü
+# í•œë¦¼ëŒ€í•™êµ 20152833 ê¹€ì¤€í˜•
 
-# ÆĞÅ°Áö ¼³Ä¡ÇÏ±â
+# íŒ¨í‚¤ì§€ ì„¤ì¹˜í•˜ê¸°
 install.packages("data.table")
 install.packages("devtools")
 
-# ÆĞÅ°Áö ºÒ·¯¿À±â
+# íŒ¨í‚¤ì§€ ë¶ˆëŸ¬ì˜¤ê¸°
 library(data.table)
 library(wordcloud2)
 
-# ÆĞÅ°Áö ¼³Ä¡ÇÏ±â
+# íŒ¨í‚¤ì§€ ì„¤ì¹˜í•˜ê¸°
 library(devtools)
 install_github("lchiffon/wordcloud2")
 
-# µ¥ÀÌÅÍ ºÒ·¯¿À±â
+# ë°ì´í„° ë¶ˆëŸ¬ì˜¤ê¸°
 data <- fread("chicken.txt", sep = ":", header = FALSE, stringsAsFactors = FALSE, encoding = "UTF-8")
 names(data) <- c("brand", "n")
 data$n <- as.numeric(data$n)
 
-# ¿öµåÅ¬¶ó¿ìµå ¸¸µé±â
+# ì›Œë“œí´ë¼ìš°ë“œ ë§Œë“¤ê¸°
 wordcloud2(data = data, figPath = "20152833-chicken-leg-original.png", size = 0.3, col = "darkorange")
