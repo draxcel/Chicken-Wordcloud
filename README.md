@@ -28,3 +28,6 @@ data$n <- as.numeric(data$n)
 # 워드클라우드 만들기
 wordcloud2(data = data, figPath = "20152833-chicken-leg-original.png", size = 0.3, col = "darkorange")
 </code></pre>
+
+- 결과물 예시:
+<p><img src="https://github.com/draxcel/korean_chicken/blob/master/20152833-chicken-leg-result.jpg?raw=true" alt="마크다운 로고" width="300" height="270"></p>
