@@ -30,4 +30,4 @@ wordcloud2(data = data, figPath = "20152833-chicken-leg-original.png", size = 0.
 </code></pre>
 
 - 결과물 예시:
-<p><img src="https://github.com/draxcel/korean_chicken/blob/master/20152833-chicken-leg-result.jpg?raw=true" alt="마크다운 로고" width="300" height="270"></p>
+<p><img src="https://github.com/draxcel/korean_chicken/blob/master/20152833-chicken-leg-result.jpg?raw=true" alt="최종 결과물" width="300" height="270"></p>
